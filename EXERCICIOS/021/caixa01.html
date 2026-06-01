@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        h1 {
+            
+            background-color: lightblue;
+            height: 50px;
+            width: 400px;
+            border-width: 4px;
+            border-style: solid;
+            border-color: aqua;
+
+                /*border > width style color*/
+            border: 4px solid lightcyan
+                /* padding > começa por cima e vai em sentido horario
+                caso queira fazer individualmente, só por -top,right,bottom,left, respectivamente*/
+            padding: 10px 11px 12px 13px;
+                /*caso todas as medidas forem iguais, só precisa escrever uma*/
+                /*usando duas medidas, resume-se ao vertical e horizontal, respectivamente*/
+                /*margin > mesmo que o padding*/
+            margin: 10px 10px 50px 10px;
+            margin: auto;
+            /*também pode automatizar alguma margem em especifico, insira auto, no lugar da medida*/
+            margin-bottom: 20px;
+            /*a ultima ordem sempre vai ser uma ordem soberana, caso haja mais de uma*/
+
+            /*outline > width, style, color respectivamente*/
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(0, 0, 0);
+
+            outline: 5px dashed green;
+
+        }
+
+        a {
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos também são exemplos de box-level,mas os links <a href="#">São exemplos de Inline-level</a> Vamos ver
+        como tudo isso funciona.</p>
+</body>
+
+</html>

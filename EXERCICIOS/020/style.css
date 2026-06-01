@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+   text-align: center; 
+}
+div {
+    display: inline-block; /*exibe uma div ao lado da outra*/
+    width: 150px;   /*largura*/
+    height: 150px;  /*altura*/
+    background-color: black;
+    border: 2px solid greenyellow; /*borda do bloco */
+}
+
+#area01 {
+    background-color: red;
+}
+#area02 {
+    background-color: aqua;
+}
+#area03 {
+    background-color: darkblue;
+}
+#area04 {
+    background-color: darkgrey;
+}

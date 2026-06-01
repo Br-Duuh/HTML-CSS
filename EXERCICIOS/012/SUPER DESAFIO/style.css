@@ -1,0 +1,26 @@
+@charset "UTF-8"
+
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(72, 72, 72)
+}
+
+a {
+    align-items: center;
+}
+main {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 600px;
+    box-shadow: 5px 5px 10px rgb(211, 211, 211);
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+
+}
